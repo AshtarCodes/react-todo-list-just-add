@@ -1,4 +1,4 @@
-
+// Todo component takes a todo prop and renders the item that was passed down. 
 const Todo = ({ todo }) => {
     return (
         <div>
@@ -6,6 +6,6 @@ const Todo = ({ todo }) => {
         </div>
     )
 }
-
+// Todo is made public
 export default Todo
 
